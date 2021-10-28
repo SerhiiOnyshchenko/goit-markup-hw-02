@@ -87,6 +87,16 @@ header {
 .contacts {
 	display: flex;
 }
+.contacts-items-link {
+	color: var(--another-color);
+	margin-left: 50px;
+	font-weight: 500;
+	line-height: 1.15;
+}
+.contacts-items-link:hover,
+.contacts-items-link:active {
+	color: var(--link-f-h-color);
+}
 
 /* section main */
 .section-main-title {
@@ -115,6 +125,10 @@ header {
 	background: var(--link-f-h-color);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
+}
+.btn:hover,
+.btn:active {
+	background: #188ce8;
 }
 
 /* Section special  */
